@@ -1,0 +1,50 @@
+view content of file:
+more (enter, space bar, q)
+
+list:
+ls
+
+list long format: 
+ls -l
+go back two directories:
+cd ../..
+
+go to specific directory from home /home/ken
+~/directoryInside/Ken
+
+lets you pring anything in the terminal: 
+echo anything
+
+create a file:
+touch <filename>
+
+ls help:
+ls --help
+
+ls all:
+ls -a
+ls --all
+
+copy file to destination
+cp <file> <destination>
+cp -r directory newDirectoryNameAndEntireContent
+
+rename of move:
+mv <filname> <new_filename>
+mv back one directory:
+mv filename ..
+mv directory newDirectoryName
+
+find:
+find [starting_directory] [options] [search_criteria]
+no options it will act like tree command but without formating
+find <specific directory> 
+find -name <filename>
+
+> VS >>
+> will overite the file content and create it if it doesn't exist
+>> will apend the content and create the file if it doens't exisit
+echo I made this stuff >> README.md
+
+
+
